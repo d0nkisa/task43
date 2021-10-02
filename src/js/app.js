@@ -8,5 +8,5 @@ window.addEventListener("DOMContentLoaded", () => {
         alert("💣");
     });
 
-    window.onload(setTimeout(() => { document.title = "One new message" }, 3000));
+    setTimeout(() => { document.title = "One new message" }, 3000);
 });
